@@ -1,3 +1,7 @@
+# Autenticação JWT
+
+Nesse projeto eu utilizo autenticação via JWT (Json Web Token) com dois endpoints dentro do ApiController, um público e outro privado. Além disso, utilizo algumas configurações para o middleware de Autenticação validar o token setar no escôpo do usuário.
+
 # Identity Server
 
 É um framework que permite criar um servidor de autenticação.
