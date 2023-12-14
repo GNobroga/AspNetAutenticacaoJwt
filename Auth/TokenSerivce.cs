@@ -4,7 +4,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Atividade_para_emprego.Auth
+namespace AspNetAutenticacaoJwt.Auth
 {
     public class TokenService 
     {
