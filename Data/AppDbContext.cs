@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
-namespace Atividade_para_emprego.Data
+namespace AspNetAutenticacaoJwt.Data
 {
     public class AppDbContext : IdentityDbContext
     {
