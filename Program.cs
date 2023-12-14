@@ -1,7 +1,7 @@
 using System.Runtime.CompilerServices;
 using System.Text;
-using Atividade_para_emprego.Auth;
-using Atividade_para_emprego.Data;
+using AspNetAutenticacaoJwt.Auth;
+using AspNetAutenticacaoJwt.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
