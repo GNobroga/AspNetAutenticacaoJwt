@@ -19,13 +19,13 @@ public class ApiController : ControllerBase
 
     [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "COMMON")]
     [HttpGet("publico")]
-    public ActionResult<string> Index()
+    public ActionResult<string> Public()
     {   
         return "Rota Publica";
     }
     
     [HttpGet("private")]
-    public ActionResult<string> Serializer() 
+    public ActionResult<string> Private() 
     {
         return "Rota Private";
     }
