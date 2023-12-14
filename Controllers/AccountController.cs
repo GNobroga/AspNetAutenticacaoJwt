@@ -1,5 +1,5 @@
-using Atividade_para_emprego.Auth;
-using Atividade_para_emprego.Dtos;
+using AspNetAutenticacaoJwt.Auth;
+using AspNetAutenticacaoJwt.Dtos;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
