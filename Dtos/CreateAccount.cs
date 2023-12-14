@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Atividade_para_emprego.Dtos
+namespace AspNetAutenticacaoJwt.Dtos
 {
     public class CreateAccount 
     {
