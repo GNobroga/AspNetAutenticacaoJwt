@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Atividade_para_emprego.Controllers;
+namespace AspNetAutenticacaoJwt.Controllers;
 
 [Route("[controller]")]
 [ApiController]
