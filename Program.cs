@@ -18,7 +18,8 @@ builder.Services
             ValidateAudience = false,
             ValidateIssuer = false,
             ValidateActor = false,
-            ValidateLifetime = true,
+            ValidateLifetime = true,]
+            // Deu preguiça de adicionar a secret key no appsettings t.t
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("gabrielcardosogirarde12345678913465555555dddddddddddddddddddddddddddddddddddddddd5555")),
             ValidAlgorithms = new[] { "HS256" }
         };
